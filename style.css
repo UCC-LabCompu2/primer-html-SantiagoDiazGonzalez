@@ -1,0 +1,30 @@
+<style>
+#header{
+    margin-top: 40px;
+    border: 8px solid gray;
+    background-color: #FFCC89;
+}
+#botones{
+    float: right;
+    margin-right: 40px}
+.boton{
+    padding: 20px;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: #FF960A;
+}
+.boton:hover{
+    color: #FF960A;
+    background-color: #FFCC89;
+    text-decoration: none;
+}
+#cfd{
+    margin-left: 40px;
+    float: left;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+</style>
