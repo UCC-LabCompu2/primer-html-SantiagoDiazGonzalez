@@ -16,6 +16,10 @@ h1{
     font-size: 20px;
     color: #d4eaff;
 }
+h2{
+    font-size: 15px;
+    color: #d4eaff;
+}
 .boton{
     font-family: Arial, cursive;
     font-size: 20px;
@@ -76,4 +80,15 @@ h1{
     width: 220px;
     height: 176px;
     margin-top: 20px;
+}
+#profes{
+    float: right;
+    margin-top: 120px;
+}
+#alumnos{
+    float: left;
+    margin-top: 60px;
+}
+#deadpool{
+    margin-left: 80px;
 }
