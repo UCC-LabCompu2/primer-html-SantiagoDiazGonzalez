@@ -46,6 +46,8 @@ h2{
     background-color: #d4eaff;
     border-radius: 5px;
     border: 1px solid #d4eaff;
+    text-align: justify;
+    padding: 5px;
 }
 .boton2{
     font-family: Arial, cursive;
@@ -60,6 +62,7 @@ h2{
     margin-left: 30px;
     margin-top: 50px;
     text-decoration: none;
+    text-align: center;
 }
 .parrafo2{
     margin-top: 20px;
@@ -71,13 +74,15 @@ h2{
     background-color: #d4eaff;
     border-radius: 5px;
     border: 1px solid #d4eaff;
+    text-align: justify;
+    padding: 5px;
 }
 #ley{
     float: left;
-    width: 220px;
+    width: 231px;
 }
 #coulomb{
-    width: 220px;
+    width: 231px;
     height: 176px;
     margin-top: 20px;
 }
