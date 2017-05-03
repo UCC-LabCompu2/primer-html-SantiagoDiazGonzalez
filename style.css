@@ -3,9 +3,14 @@ body{
     margin: auto;
     width: 50%;
 }
-img{
+#logo{
     width: 343;
     height: 194;
+}
+#ucc{
+    width: 179;
+    height: 102;
+    margin-top: 20px;
 }
 .seleccion{
     font-family: "Comic Sans MS", cursive;
@@ -17,7 +22,7 @@ h1{
     color: #d4eaff;
 }
 .boton{
-    font-family: Arial;
+    font-family: Arial, cursive;
     font-size: 20px;
     color: #d4eaff;
     background-color: #ba0000;
@@ -31,4 +36,14 @@ h1{
     color: rgb(0,0,255);
     background-color: #d4eaff;
     text-decoration: none;
+}
+.parrafo{
+    margin-top: 20px;
+    font-family: Arial, cursive;
+    font-size: 15px;
+    font-style: italic;
+    width: 343;
+    background-color: #d4eaff;
+    border-radius: 5px;
+    border: 1px solid #d4eaff;
 }
