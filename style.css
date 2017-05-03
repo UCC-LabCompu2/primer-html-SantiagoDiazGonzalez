@@ -64,12 +64,21 @@ h1{
 }
 .parrafo2{
     margin-top: 20px;
-    margin-left: 343px;
     font-family: Arial, cursive;
     font-size: 15px;
     font-style: italic;
-    width: 343;
+    width: 219px;
+    height: 390px;
     background-color: #d4eaff;
     border-radius: 5px;
     border: 1px solid #d4eaff;
+}
+#ley{
+    float: left;
+    width: 220px;
+}
+#coulomb{
+    width: 220px;
+    height: 176px;
+    margin-top: 20px;
 }
