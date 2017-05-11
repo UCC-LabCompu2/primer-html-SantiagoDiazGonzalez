@@ -3,7 +3,8 @@
  */
 
 /**
- * Descripción
+ * Convierte de una unidad a otra, el valor ingresado por el usuario.
+ * Ej. si el usuario metro, el valor se convierte a yatda, pie y pulgada.
  * @method Nombre de la función
  * @param Parámetro A
  * @param Parámetro B
@@ -21,6 +22,11 @@ function convertirunidades(txt) {
         document.getElementById('pie').value = "";
         document.getElementById('yarda').value = "";
         document.getElementById('pulgada').value = "";
+    }
+    else {
+        switch (txt) {
+
+        }
     }
 
     switch (txt) {
@@ -48,4 +54,36 @@ function convertirunidades(txt) {
             document.getElementById('pie').value = contenido * 0.02778;
             break;
     }
+}
+
+/**
+ * Convierte de radianes a grados y de grados a radianes
+ * @method conversorgradosradianes
+ * @param unidad (grados | radianes)
+ * @param valor
+ */
+
+function conversorgradosradianes(unidad, valor) {
+    var valor_radianes, valor_grados;
+
+    valor = valor.replace(',', '.');
+    valor = valor.replace('°', '');
+
+    if(isNaN(valor)){
+        alert("El valor ingresado en "+ unidad +" es invalido.")
+        valor_radianes = "";
+        valor_grados = "";
+    }
+
+    if (unidad == "grados") {
+        valor_radianes = valor * Math.PI / 180;
+        valor_grados = valor;
+    }
+    else if (unidad == "radianes") {
+        valor_grados = valor * 180 / Math.PI;
+        valor_radianes = valor;
+    }
+
+    document.conver_radgr.unid_grados.value = valor_grados;
+    document.conver_radgr.unid_radianes.value = valor_radianes;
 }
