@@ -69,8 +69,8 @@ function conversorgradosradianes(unidad, valor) {
     valor = valor.replace(',', '.');
     valor = valor.replace('°', '');
 
-    if(isNaN(valor)){
-        alert("El valor ingresado en "+ unidad +" es invalido.")
+    if (isNaN(valor)) {
+        alert("El valor ingresado en " + unidad + " es invalido.")
         valor_radianes = "";
         valor_grados = "";
     }
@@ -86,4 +86,20 @@ function conversorgradosradianes(unidad, valor) {
 
     document.conver_radgr.unid_grados.value = valor_grados;
     document.conver_radgr.unid_radianes.value = valor_radianes;
+}
+
+/**
+ * mostrar u ocultar un div segun la opcion seleccionada
+ * @method mostrar_ocultar
+ * @param accion (mostrarDiv | ocultarDiv)
+ */
+
+function mostrar_ocultar(accion) {
+    if (accion == "mostrarDiv") {
+        document.getElementById('elDiv').style.display = 'block';
+    }
+    else if (accion == "ocultarDiv") {
+        document.getElementById('elDiv').style.display = 'none';
+    }
+
 }
