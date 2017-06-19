@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0215551-c714-4eaa-bab9-65bd0ec501c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/circulocuadrado.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/conversorunidades.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/gradosradianes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/holamundo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/miEstilo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/misFunciones.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/mostrarocultar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/operacionesmatematicas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/primera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/segunda.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/canvasxy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/cuadriculado.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/misFunciones.js" afterPath="$PROJECT_DIR$/JS/misFunciones.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,21 +50,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misFunciones.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="misFunciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/misFunciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="347" column="1" lean-forward="false" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
+            <state relative-caret-position="1938">
+              <caret line="114" column="1" lean-forward="false" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circulocuadrado.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="canvasxy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/canvasxy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circulocuadrado.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/circulocuadrado.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cuadriculado.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/cuadriculado.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -102,16 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operacionesmatematicas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/operacionesmatematicas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -157,6 +162,8 @@
         <option value="$PROJECT_DIR$/JS/segunda.html" />
         <option value="$PROJECT_DIR$/JS/miEstilo.css" />
         <option value="$PROJECT_DIR$/JS/circulocuadrado.html" />
+        <option value="$PROJECT_DIR$/JS/cuadriculado.html" />
+        <option value="$PROJECT_DIR$/JS/canvasxy.html" />
         <option value="$PROJECT_DIR$/JS/misFunciones.js" />
       </list>
     </option>
@@ -318,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1497825914786</updated>
       <workItem from="1497825916514" duration="4498000" />
-      <workItem from="1497831140832" duration="3446000" />
+      <workItem from="1497831140832" duration="4621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7944000" />
+    <option name="totallyTimeSpent" value="9119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -541,10 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/misFunciones.js">
+    <entry file="file://$PROJECT_DIR$/JS/cuadriculado.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="347" column="1" lean-forward="false" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -553,6 +560,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/canvasxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/misFunciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="1" lean-forward="false" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
           <folding />
         </state>
       </provider>
