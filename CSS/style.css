@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, darkorange, floralwhite)
+}
+
+div {
+    border: 2px dashed black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#head{
+    background-color: darkorange;
+}
+
+.cursos{
+    background-color: darkorange;
+}
